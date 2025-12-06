@@ -1,0 +1,11 @@
+.slide-wrapper{
+    display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+}

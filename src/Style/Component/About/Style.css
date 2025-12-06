@@ -1,0 +1,38 @@
+.info-section {
+  max-width: 850px;
+  margin: 30px auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.description2 {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+  max-width: 650px;
+  margin: 0 auto 30px auto;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.feature-box {
+  border: 1px solid #4ecdc4;
+  padding: 14px 18px;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+  font-size: 14px;
+  width: 80%;
+  max-width: 550px;
+  transition: 0.3s ease;
+}
+
+.feature-box:hover {
+  background: #4ecdc4;
+  cursor: pointer;
+}
