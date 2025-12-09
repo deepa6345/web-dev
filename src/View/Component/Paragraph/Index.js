@@ -1,9 +1,9 @@
 // src/View/Component/Paragraph/Index.js
 import React from "react";
-function Paragraph({ text }) {
+function Paragraph({ p }) {
   return (
     <p>
-      {text}
+      {p}
       <br />
     </p>
   );

@@ -1,17 +1,17 @@
 
-import { header } from "../DummyData/landingParaData";
-import Paragraph from "../Paragraph/Index";
+
+
 import "../../../Style/Component/Header/Style.css";
 
-function Header() {
+function Header({head}) {
   return (
     <div className="container">
       <h1>
-        {header.head}
+        {head}
         <br />
      
       </h1>
-      <Paragraph text={header.p} />
+      
     </div>
   );
 }

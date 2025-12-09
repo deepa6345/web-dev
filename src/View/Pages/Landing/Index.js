@@ -2,14 +2,15 @@
 
 
 import About from "../../Component/About/Index";
-import Leftside from "../../Component/Leftslide/Index";
+import FullSlide from "../../Component/FullSlide/Index";
+
 import Services from "../../Component/Services/Index";
 
 function Landing() {
   return (
     <div>
     
-     <Leftside/>
+     <FullSlide/>
      <About/>
      <Services/>
      
